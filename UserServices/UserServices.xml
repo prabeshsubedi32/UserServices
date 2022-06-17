@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UserServices</name>
+    </assembly>
+    <members>
+        <member name="M:UserServices.Controllers.UserController.GetAll">
+            <summary>
+            Returns the list of the users information.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UserServices.Controllers.UserController.Get(System.Int32)">
+            <summary>
+            Returns user based on user id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserServices.Controllers.UserController.Post(UserServices.POCO.Models.User)">
+            <summary>
+            Insert new users information.
+            </summary>
+            <param name="userInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserServices.Controllers.UserController.Delete(System.Int32)">
+            <summary>
+            Remove user based on user id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
